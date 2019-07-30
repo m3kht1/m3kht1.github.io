@@ -1,0 +1,38 @@
+{
+    "users":[
+        {
+            "id" : "1",
+            "name": "Mekhti",
+            "surname" : "Gumbatov",
+            "email" : "mekhti11@gmail.com",
+            "uname":"m3kht1",
+            "pw" : "12345aa"
+        }
+    ]
+    "queen":[
+        {
+            "name": "Freddie",
+            "surname" : "Mercury",
+            "notes" : "Lead Vocal",
+            "fromTo" : "1970–1991",
+        },
+        {
+            "name": "John",
+            "surname" : "Deacon",
+            "notes" : "Bass Guitar",
+            "fromTo" : "1971–1997",
+        },
+        {
+            "name": "Brian",
+            "surname" : "May",
+            "notes" : "Lead Guitar and Vocal",
+            "fromTo" : "1970-present",
+        },
+        {
+            "name": "Roger",
+            "surname" : "Taylor",
+            "notes" : "Drum and Vocal",
+            "fromTo" : "1970-present",
+        }
+    ]
+}
