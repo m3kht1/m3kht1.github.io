@@ -6,8 +6,8 @@
     header('Content-Type: application/json; charset: utf-8' );
 
     // $arr = array();
-    if(isset($_POST['action'])) {
+    // if(isset($_POST['action'])) {
         echo json_encode($json_data, JSON_UNESCAPED_UNICODE);
-    }
+    // }
 
 ?>
