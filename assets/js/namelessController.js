@@ -8,9 +8,13 @@ angular.module('Nameless',['ngMaterial'])
             }
         };
         $http.get(url,config).then(
-            function(res){
-                console.log(res)
-            }
+            function (response) {
+                console.log(response);
+			},
+			function (response) {
+				console.log(response);
+			}
         )
-    }
+    },
+    $scope.getUsers();
 });
