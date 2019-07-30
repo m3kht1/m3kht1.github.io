@@ -9,10 +9,10 @@ angular.module('Nameless',['ngMaterial'])
         };
         $http.get(url,config).then(
             function (response) {
-                console.log(response);
+                console.log(response.data);
 			},
 			function (response) {
-				console.log(response);
+				console.log(response.data);
 			}
         )
     },
