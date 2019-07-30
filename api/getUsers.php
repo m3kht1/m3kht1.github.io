@@ -7,7 +7,10 @@
 
     // $arr = array();
     // if(isset($_POST['action'])) {
-        echo json_encode($json_data, JSON_UNESCAPED_UNICODE);
+    $json = file_get_contents('../data.json');
+    $json = json_decode($json,true);
+    $json_data = $json["users"];
+    echo json_encode($json_data, JSON_UNESCAPED_UNICODE);
     // }
 
 ?>
