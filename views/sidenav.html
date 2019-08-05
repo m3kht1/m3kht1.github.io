@@ -1,0 +1,21 @@
+
+<md-sidenav class="md-sidenav-right md-whiteframe-4dp" md-component-id="sidenav">
+
+    <md-toolbar class="md-theme-light">
+        <div class="md-toolbar-tools">
+            <md-button ng-click="close()" class="md-icon-button sidenav-otelika-button" aria-label="Close">
+                <md-tooltip md-direction="bottom" >Kapat</md-tooltip>
+                <md-icon><i class="ion-android-arrow-forward text-muted"></i></md-icon>
+            </md-button>
+            <md-truncate class="sidenav-title">
+                <h1 class="md-toolbar-tools">{{currentUser.name}} {{currentUser.surname}}</h1>
+            </md-truncate>
+    </md-toolbar>
+    <md-content>
+        <div class="text-center xs-mt-10">
+            <!-- <img src="{{edited_citizen.thumb}}" class="md-avatar user-details-avatar" alt="{{edited_citizen.name}}" /> -->
+            <h2><strong>{{currentUser.name}} {{currentUser.surname}}</strong></h2>
+        </div>
+    </md-content>
+
+</md-sidenav>

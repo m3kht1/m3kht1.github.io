@@ -1,14 +1,21 @@
 angular.module('Nameless',['ngMaterial'])
-.controller("justAController",function($scope,$http){
+.controller("justAController",function($scope,$http,$mdSidenav){
+    $scope.currentUser ;
+    $scope.items ;
+
     $scope.getUsers = function() {
-        var url = "https://m3kht1.github.io/api/getUsers.php";
+        var url = "localhost:8000/api/getUsers.php";
         var config = {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8;'
             }
         };
-        $http.get(url,config).then(
+        var data = {
+            'action':'queen'
+        }
+        $http.get(url,data,config).then(
             function (response) {
+                $scope.items = response.data;
                 console.log(response.data);
 			},
 			function (response) {
@@ -17,4 +24,22 @@ angular.module('Nameless',['ngMaterial'])
         )
     },
     $scope.getUsers();
+    // $scope.goToUser = function(index){
+    //     $scope.currentUser = $scope.items[index];
+    //     $scope.sidenav = buildToggler('sidenav');
+    //     console.log(index);
+    // }
+    // function buildToggler(navID) {
+    //     return function () {
+    //         $mdSidenav(navID).toggle();
+    //     };
+    // };
+    //
+    // $scope.close_sidenav = function (navID) {
+    //     $mdSidenav(navID).close();
+    // };
+    //
+    // $scope.close = function () {
+    //     $mdSidenav('sidenav').close();
+    // }
 });
