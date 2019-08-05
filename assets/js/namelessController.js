@@ -4,7 +4,7 @@ angular.module('Nameless',['ngMaterial'])
     $scope.items ;
 
     $scope.getUsers = function() {
-        var url = "localhost:8000/api/getUsers.php";
+        var url = "m3kht1.github.io/api/getUsers.php";
         var config = {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8;'
