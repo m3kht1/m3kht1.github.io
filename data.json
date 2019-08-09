@@ -14,25 +14,29 @@
             "name": "Freddie",
             "surname" : "Mercury",
             "notes" : "Lead Vocal",
-            "fromTo" : "1970–1991"
+            "fromTo" : "1970–1991",
+            "bio":"biography will be here"
         },
         {
             "name": "John",
             "surname" : "Deacon",
             "notes" : "Bass Guitar",
-            "fromTo" : "1971–1997"
+            "fromTo" : "1971–1997",
+            "bio":"biography will be here"
         },
         {
             "name": "Brian",
             "surname" : "May",
             "notes" : "Lead Guitar and Vocal",
-            "fromTo" : "1970-present"
+            "fromTo" : "1970-present",
+            "bio":"biography will be here"
         },
         {
             "name": "Roger",
             "surname" : "Taylor",
             "notes" : "Drum and Vocal",
-            "fromTo" : "1970-present"
+            "fromTo" : "1970-present",
+            "bio":"biography will be here"
         }
     ]
 }

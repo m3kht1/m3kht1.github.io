@@ -1,0 +1,23 @@
+{
+     "name": "m3kht1.github.io",
+     "version": "0.0.1",
+     "description": "My Project",
+     "dependencies": {
+          "express": "*"
+     },
+     "engine": "node >=0.6.x",
+     "scripts": {
+          "start": "node server.js"
+     },
+     "main": "server.js",
+     "repository": {
+          "type": "git",
+          "url": ""
+     },
+     "author": "m3kht1",
+     "license": "m3kht1.github.io",
+     "bugs": {
+          "url": ""
+     },
+     "homepage": "/"
+}
